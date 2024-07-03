@@ -2,6 +2,8 @@
 #include "../Project2/PrimeFactor.cpp"
 using namespace std;
 
-TEST(testcasename, testname) {
-	EXPECT_EQ(1, 1);
+TEST(testcasename, Of1) {
+	PrimeFactor prime_factor;
+	vector<int> expected = {};
+	EXPECT_EQ(expected, prime_factor.of(1));
 }
